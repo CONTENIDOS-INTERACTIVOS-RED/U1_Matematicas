@@ -139,11 +139,11 @@ export default {
       //   icono: 'far fa-folder-open',
       //   titulo: 'Material complementario',
       // },
-      {
+      /*{
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
-      },
+      },*/
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -199,64 +199,49 @@ export default {
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Aritmética básica',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Rama de las matemáticas que estudia las operaciones fundamentales (suma, resta, multiplicación y división) y sus propiedades para trabajar con números.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Decimales',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Forma de expresar números fraccionarios utilizando potencias de diez. Incluyen números como 0.5, 1.75, etc.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'División',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Operación aritmética, inversa de la multiplicación, que determina cuántas veces un número cabe dentro de otro.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Fracciones',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Representación de una parte de un entero, mediante un numerador (parte superior) y un denominador (parte inferior).',
     },
     {
-      termino: 'Moda',
+      termino: 'Multiplicación',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Operación aritmética que consiste en sumar un número por sí mismo varias veces, según lo indica otro número.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Porcentajes',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Forma de expresar proporciones o fracciones en términos de 100, usando el símbolo %.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Proporciones',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Relación entre dos cantidades, que indica cuántas veces un valor contiene o es contenido por el otro.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Regla de tres',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Método matemático para resolver problemas de proporcionalidad, ya sean directas o inversas.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Suma',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Operación aritmética que consiste en combinar dos o más números, para obtener un total o resultado.',
     },
   ],
   complementario: [

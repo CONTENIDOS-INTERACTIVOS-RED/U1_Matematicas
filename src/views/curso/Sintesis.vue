@@ -2,9 +2,9 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La Unidad 1: Aritmética básica, establece los fundamentos esenciales para comprender y aplicar las operaciones matemáticas fundamentales, como suma, resta, multiplicación y división, además de sus extensiones a fracciones, decimales, porcentajes y proporciones. Esta unidad sienta las bases para desarrollar habilidades críticas en análisis numérico y resolución de problemas prácticos, lo que resulta clave para el éxito en contextos académicos y profesionales. Este enfoque integral asegura que los estudiantes adquieran una comprensión sólida de la aritmética básica, permitiéndoles avanzar con confianza en su aprendizaje y aplicación en diversas disciplinas.
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/sintesis.svg', alt='Texto que describa la imagen')
     
 
 </template>

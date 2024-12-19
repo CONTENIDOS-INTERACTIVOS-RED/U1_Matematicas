@@ -22,10 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.descripcion.mb-4 Desde las operaciones más simples hasta la resolución de problemas cotidianos, la aritmética básica constituye un pilar fundamental en la vida académica, profesional y personal. En esta unidad, los estudiantes profundizarán en conceptos esenciales como la suma, resta, multiplicación y división, así como sus extensiones a fracciones, decimales, porcentajes y proporciones. La aplicación práctica de estos conocimientos permitirá desarrollar habilidades matemáticas críticas, que son indispensables en áreas como la contabilidad, la gestión empresarial, la logística y la resolución de problemas reales.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
-
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para aplicar estas herramientas con confianza y eficacia en situaciones del día a día!
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -146,7 +145,7 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
+    background-color: $color-primario !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
