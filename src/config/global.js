@@ -15,13 +15,14 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Aritmética básica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo:
+              'Operaciones básicas: suma, resta, multiplicación y división',
             hash: 't_1_1',
           },
           {
