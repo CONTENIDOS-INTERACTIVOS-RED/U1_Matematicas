@@ -55,10 +55,10 @@
           .col-sm-12.col-lg-4.d-none.d-lg-block.mb-0
               img(src='@/assets/curso/t1/2.png', alt='Texto que describa la imagen')
 
-    .bg-1.p-4.mb-5
+    .bg-1.p-4.mb-5(data-aos="flip-up")
       p.mb-0 Dominar estas operaciones es crucial para desarrollar análisis más complejos y tomar decisiones fundamentadas en datos cuantitativos.
-    p.mb-5 Parra y Saiz (2007), enfatizan la importancia de comprender las operaciones básicas como procesos interrelacionados, que forman la base del pensamiento matemático. Andonegui Zabala (2007) destaca cómo el sistema decimal facilita las operaciones en contextos prácticos, mientras que Ortiz Ceredo (2018), subraya la necesidad de dominar estas operaciones para el análisis de datos en entornos profesionales.
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="flip-up") Parra y Saiz (2007), enfatizan la importancia de comprender las operaciones básicas como procesos interrelacionados, que forman la base del pensamiento matemático. Andonegui Zabala (2007) destaca cómo el sistema decimal facilita las operaciones en contextos prácticos, mientras que Ortiz Ceredo (2018), subraya la necesidad de dominar estas operaciones para el análisis de datos en entornos profesionales.
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
         .row.justify-content-center.align-items-center.mb-0
           .col-sm-12.col-lg-12
@@ -77,7 +77,7 @@
                         i.fas.fa-arrow-right
 
 
-    p.mb-3 A continuación, se darán a conocer algunas importancias generales de las operaciones matemáticas básicas, en el contexto profesional.
+    p.mb-3(data-aos="flip-up") A continuación, se darán a conocer algunas importancias generales de las operaciones matemáticas básicas, en el contexto profesional.
     .bg-full-width.bg-fondo-2.mb-5(data-aos="flip-up")
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white
@@ -109,8 +109,8 @@
                 img(src="@/assets/curso/t1/11.png")
 
 
-    p.mb-5 Las operaciones básicas son transformaciones que realizamos sobre los números, para obtener nuevos valores. Cada operación tiene su propia naturaleza y significado.
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="flip-up") Las operaciones básicas son transformaciones que realizamos sobre los números, para obtener nuevos valores. Cada operación tiene su propia naturaleza y significado.
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
         .row.justify-content-center.align-items-center.mb-0
           .col-sm-12.col-lg-12
@@ -129,8 +129,8 @@
                         i.fas.fa-arrow-right
 
 
-    h3.mb-3 Suma
-    .bg-1.p-4.mb-5
+    h3.mb-3(data-aos="flip-up") Suma
+    .bg-1.p-4.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-12.col-lg-6
           p.mb-3 La suma es una operación matemática que combina dos o más cantidades en una sola, representando la unión o adición de elementos.
@@ -149,8 +149,8 @@
               p.mb-2 #[b 4.] Millares: 1 + 2 + 1 + 3 = 7
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src="@/assets/curso/t1/10.png")
-    h3.mb-3 Propiedades de la suma
-    .row.justify-content-center.mb-5
+    h3.mb-3(data-aos="flip-up") Propiedades de la suma
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/12.png")
       .col-sm-12.col-lg-8
@@ -220,7 +220,7 @@
               li
                 i.fas.fa-circle.icon-list
                 | Verificación de balances.
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -237,7 +237,7 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/t1/13.png', alt='')
 
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-5.d-none.d-lg-block
@@ -259,8 +259,8 @@
               .anexo__texto
                 p <strong>Anexo. </strong>  Aritmética: fracciones y operaciones
 
-    h3.mb-3 Resta
-    .bg-1.p-4.mb-5
+    h3.mb-3(data-aos="flip-up") Resta
+    .bg-1.p-4.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-12.col-lg-6
           p.mb-3 La resta es la operación que determina la diferencia entre dos cantidades o encuentra el valor que se debe añadir a una cantidad, para obtener otra.
@@ -280,8 +280,8 @@
           img(src="@/assets/curso/t1/15.png")
 
 
-    h3.mb-3 Propiedades de la resta
-    .row.justify-content-center.mb-5
+    h3.mb-3(data-aos="flip-up") Propiedades de la resta
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/16.png")
       .col-sm-12.col-lg-8
@@ -315,7 +315,7 @@
           div(numero="3" titulo="Inversa de la suma")
             p La resta de un número por sí mismo siempre es cero. Para cualquier número a: a - a = 0
 
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -333,8 +333,8 @@
               img(src='@/assets/curso/t1/17.png', alt='')
 
 
-    h3.mb-3 Multiplicación
-    .bg-1.p-4.mb-5
+    h3.mb-3(data-aos="flip-up") Multiplicación
+    .bg-1.p-4.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-12.col-lg-6
           p.mb-3 La multiplicación es una suma repetida que permite calcular el resultado de combinar una cantidad, consigo misma, una cantidad determinada de veces.
@@ -355,8 +355,8 @@
               p.mb-2 #[b 4.] Resultado final: 13,104
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src="@/assets/curso/t1/31.png")
-    h3.mb-3 Propiedades de la multiplicación
-    .row.justify-content-center.mb-5
+    h3.mb-3(data-aos="flip-up") Propiedades de la multiplicación
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       
       .col-sm-12.col-lg-8
         LineaTiempoD.color-acento-contenido.large
@@ -436,7 +436,7 @@
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/18.png")
 
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -453,8 +453,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/t1/19.png', alt='')
 
-    h3.mb-3 División
-    .bg-1.p-4.mb-5
+    h3.mb-3(data-aos="flip-up") División
+    .bg-1.p-4.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-12.col-lg-6
           p.mb-3 La división es la operación que distribuye una cantidad en partes iguales o determina, cuántas veces una cantidad contiene a otra. La división implica encontrar cuántas veces el divisor, cabe en el dividendo.
@@ -470,8 +470,8 @@
            
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src="@/assets/curso/t1/20.png")
-    h3.mb-3 Propiedades de la división
-    .row.justify-content-center.mb-5
+    h3.mb-3(data-aos="flip-up") Propiedades de la división
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-4.d-none.d-lg-block
         img(src="@/assets/curso/t1/21.png")
       .col-sm-12.col-lg-8
@@ -499,7 +499,7 @@
             p.mb-2 2) 23.45 ÷ 1 = 23.45
             p.mb-2 3) (-15) ÷ 1 = -15
 
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -516,8 +516,8 @@
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/t1/22.png', alt='')
 
-    h3.mb-5 Aplicaciones especializadas
-    .row.justify-content-center.mb-5
+    h3.mb-5(data-aos="flip-up") Aplicaciones especializadas
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-7.bg-1.p-4
         p.mb-4.fw-bold División en proporciones
         p.mb-0.fw-bold Razones y proporciones:
@@ -527,7 +527,7 @@
       .col-sm-12.col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/t1/23.png")
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-5.d-none.d-lg-block
         img(src="@/assets/curso/t1/24.png")
       .col-sm-12.col-lg-7.bg-1.p-4
@@ -542,7 +542,7 @@
         p.mb-0 Liquidez = Activo Corriente ÷ Pasivo Corriente
       
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-6
           p.mb-2 Para reforzar lo aprendido, lo invitamos a participar en un juego que desafía su velocidad mental, a través de preguntas rápidas sobre operaciones matemáticas. 
           a.anexo.mb-4.w-fit(href="https://wordwall.net/es/resource/16370335/reforzando-las-operaciones-basicas-de-matematicas" target="_blank")(data-aos="flip-up")
@@ -559,7 +559,7 @@
                 p <strong>Anexo. </strong> Crea operaciones matemáticas
 
 
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -575,14 +575,14 @@
           .col-lg-5.d-none.d-lg-block
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/t1/25.png', alt='')
-    p.mb-3 Para apoyarse en la solución de los ejercicios propuestos en la unidad, lo invitamos a utilizar la herramienta online Symbolab.       
+    p.mb-3(data-aos="flip-up") Para apoyarse en la solución de los ejercicios propuestos en la unidad, lo invitamos a utilizar la herramienta online Symbolab.       
     a.anexo.mb-5.w-fit(href="https://es.symbolab.com/solver/basic-operations-calculator/" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#DBE7FC'}")
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
                 p <strong>Anexo. </strong> Calculadora de operaciones básicas
-    p.mb-3 En la herramienta podrá ingresar los cálculos matemáticos a realizar y, posteriormente, dar clic en “ir” para ver los resultados detallados de cada ejercicio.
-    .row.justify-content-center.mb-5
+    p.mb-3(data-aos="flip-up") En la herramienta podrá ingresar los cálculos matemáticos a realizar y, posteriormente, dar clic en “ir” para ver los resultados detallados de cada ejercicio.
+    .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-6
         .titulo-figura.mb-2
           h5 Figura 1. 
@@ -598,7 +598,7 @@
           img(src='@/assets/curso/t1/27.png', alt='').mb-0
           figcaption Nota. Tomado de: https://es.symbolab.com/solver/basic-operations-calculator/ 
 
-    .bg-full-width.bg-3.mb-5
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -616,7 +616,7 @@
               img(src='@/assets/curso/t1/28.png', alt='')
 
 
-    .row.align-items-center.bg-1.p-4
+    .row.align-items-center.bg-1.p-4(data-aos="flip-up")
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/t1/29.svg", style="max-width: 90px").mx-auto
         .col-lg
