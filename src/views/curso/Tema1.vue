@@ -447,7 +447,7 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Casos especiales de la multiplicación PEND
+                p <strong>Anexo. </strong> Casos especiales de la multiplicación
 
           .col-lg-5.d-none.d-lg-block
             figure(data-aos="zoom-in")
@@ -510,7 +510,7 @@
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Casos especiales de la división PEND
+                p <strong>Anexo. </strong> Casos especiales de la división
 
           .col-lg-5.d-none.d-lg-block
             figure(data-aos="zoom-in")
