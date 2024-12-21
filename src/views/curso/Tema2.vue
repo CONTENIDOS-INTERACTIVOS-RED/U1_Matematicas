@@ -35,11 +35,11 @@
             h2.mb-4 Decimales
             p.mb-4 Los números decimales son una herramienta esencial en el mundo moderno, proporcionando precisión y claridad en cálculos que abarcan desde mediciones hasta transacciones financieras. El PDF #[b Decimales], aborda su estructura, propiedades, operaciones y aplicaciones prácticas en áreas como ciencia, logística y programación. Comprender y manejar los números decimales permite resolver problemas con exactitud, destacando su relevancia en la toma de decisiones informadas en diversos contextos cotidianos y profesionales.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/importancia_de_las_matematicas.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/decimales.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Decimales PEND
+                p <strong>Anexo. </strong> Decimales
 
           .col-lg-5.d-none.d-lg-block
             figure(data-aos="zoom-in")

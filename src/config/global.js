@@ -31,26 +31,27 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Fracciones, decimales y porcentajes',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo:
+          'Aplicación de la aritmética en la vida diaria: proporciones y reglas de tres, simples',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Proporciones',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo: 'Reglas de tres',
             hash: 't_3_2',
           },
         ],
