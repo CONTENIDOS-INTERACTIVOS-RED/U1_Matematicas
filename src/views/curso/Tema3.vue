@@ -374,6 +374,10 @@
           p.mb-0 La regla de tres sigue siendo una herramienta esencial en el mundo moderno. Su capacidad para simplificar cálculos y adaptarse a diversos contextos, la convierte en un recurso valioso tanto en la vida cotidiana como en sectores profesionales claves.
 
 
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 
 </template>
@@ -385,6 +389,170 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Sistemas numéricos y álgebra de Boole',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: 'La aritmética básica se define principalmente como:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Un conjunto de números',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El fundamento del pensamiento matemático y cuantitativo',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Una serie de símbolos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un método de conteo simple',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente! La aritmética básica es el fundamento esencial de todo pensamiento matemático y cuantitativo.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: 'La propiedad conmutativa de la suma establece que:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El resultado siempre es positivo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El orden de los sumandos no altera el resultado',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'La suma con cero da el mismo número',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Los números se pueden agrupar de cualquier forma',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! La propiedad conmutativa permite cambiar el orden de los sumandos sin afectar el resultado.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto: 'Para sumar fracciones con diferente denominador, se debe:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sumar numeradores y denominadores',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Encontrar un denominador común',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Multiplicar las fracciones',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dividir los numeradores',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Perfecto! El denominador común es necesario para sumar fracciones correctamente.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: 'Al multiplicar 234 por 56, el proceso correcto es:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Sumar 234 cincuenta y seis veces',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Multiplicar por 6 y luego por 50, sumando resultados',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Multiplicar solo los dígitos iguales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Dividir 234 entre 56',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente! Este método descompone la multiplicación en pasos más sencillos.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto: 'Una fracción propia es aquella donde:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El numerador es mayor que el denominador',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El numerador es menor que el denominador',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Numerador y denominador son iguales',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El denominador es cero',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! Las fracciones propias representan partes de una unidad.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
