@@ -558,7 +558,6 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Crea operaciones matemáticas
 
-
     .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
@@ -616,14 +615,70 @@
               img(src='@/assets/curso/t1/28.png', alt='')
 
 
-    .row.align-items-center.bg-1.p-4(data-aos="flip-up")
+    .row.align-items-center.bg-1.p-4.mb-5(data-aos="flip-up")
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/t1/29.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0 Las matemáticas no solo son el lenguaje universal para resolver problemas complejos, sino que también son una herramienta vital en el avance tecnológico y en la toma de decisiones, en un mundo dinámico y globalizado.
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/ereader/tecnologicadeloriente/176788?page=1" target="_blank" rel="noopener noreferrer") Parra, C. & Saiz, I. (2007). Enseñar aritmética a los más chicos: de la exploración al dominio. Homo Sapiens Ediciones.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.poli.edu.co/blog/poliverso/la-carrera-de-administracion-de-empresas-lleva-matematicas" target="_blank" rel="noopener noreferrer") ¿La Carrera de Administración de Empresas Lleva Matemáticas?
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://diletradeco.com/blog/aplicacion-de-las-matematicas-en-la-logistica/" target="_blank" rel="noopener noreferrer") Aplicación de las matemáticas en la logística - Dile Trade CO
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.uvg.edu.mx/blog/index.php/matematicas-en-contabilidad" target="_blank" rel="noopener noreferrer") ¿Las matemáticas en contabilidad son difíciles?
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.educalim.com/biblioteca/mate/mate.html" target="_blank" rel="noopener noreferrer") Crea operaciones matemáticas
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://wordwall.net/es-cl/community/juego-de-operaciones-basicas" target="_blank" rel="noopener noreferrer") Juego de operaciones básicas
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://calculomates.com/" target="_blank" rel="noopener noreferrer") Generador de operaciones matemáticas
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/fafGlGOzCCg?si=M5oMk5L8-6Tfiybn" target="_blank" rel="noopener noreferrer") Epsilon Akdemy. (2017). Sistemas de numeración.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/2v1ZkcyrTl4?si=Hy7UYsiXf4kCR0k0" target="_blank" rel="noopener noreferrer") MATHEMATIKÓS. (2022). ¿En qué orden estudiar Matemáticas?
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/lcox4j4w-gY?si=Dncq6LWw17eYqW" target="_blank" rel="noopener noreferrer") Gómez Moya, S. (2022). Operaciones aritméticas.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/lpq4c7_BV8?si=Dje29lqV7p5Py5Qh" target="_blank" rel="noopener noreferrer") Barushnet. (2022). Aritmética: operaciones básicas, leyes de los signos y fracciones.
+            
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

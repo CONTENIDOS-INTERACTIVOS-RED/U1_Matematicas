@@ -367,17 +367,45 @@
         i.fas.fa-circle.icon-list
         | Eficiencia: reduce el tiempo necesario para resolver problemas cotidianos y profesionales.
 
-    .row.align-items-center.bg-1.p-4(data-aos="flip-up")
+    .row.align-items-center.bg-1.p-4.mb-5(data-aos="flip-up")
         .col-lg-auto.d-none.d-lg-block
           img(src="@/assets/curso/t3/19.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0 La regla de tres sigue siendo una herramienta esencial en el mundo moderno. Su capacidad para simplificar cálculos y adaptarse a diversos contextos, la convierte en un recurso valioso tanto en la vida cotidiana como en sectores profesionales claves.
 
+    .bg-full-width.border-top.color-primario.mb-0
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/en/ereader/tecnologicodeloriente/40539?page=6' target='_blank' rel='noopener noreferrer') Ortiz Ceredo, F. J. (2018). Matemáticas 3 (2 ed.). Grupo Editorial Patria.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://matematix.org/ ' target='_blank' rel='noopener noreferrer') https://matematix.org/ 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://es.khanacademy.org/math' target='_blank' rel='noopener noreferrer') Cursos matemáticos por área.
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/ro-fpmydR4s?si=iA9ZiEinq1Nlxp6h' target='_blank' rel='noopener noreferrer') Épsilon Akdemy. (2019). Aritmética: FRACCIONES y OPERACIONES
+          
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
         #Actividad                
           <Actividad :cuestionario="cuestionario"/>
+
+    
 
 
 </template>

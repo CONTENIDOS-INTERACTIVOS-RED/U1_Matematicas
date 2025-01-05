@@ -46,7 +46,7 @@
               img(src='@/assets/curso/t2/3.png', alt='') 
 
 
-    .bg-full-width.bg-3.mb-0(data-aos="flip-up")
+    .bg-full-width.bg-3.mb-5(data-aos="flip-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-5.d-none.d-lg-block
@@ -63,6 +63,35 @@
                 p <strong>Anexo. </strong> Porcentajes
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/en/ereader/tecnologicadeloriente/94592?page=29" target="_blank" rel="noopener noreferrer") Andonegui Zabala, M. (2007). El sistema numérico decima. Corporación Andina de Fomento.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.lifeder.com/ " target="_blank" rel="noopener noreferrer") https://www.lifeder.com/ 
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://es.symbolab.com/solver/basic-operations-calculator" target="_blank" rel="noopener noreferrer") Solucionador matemático de IA > Calculadora de operaciones básicas.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/playlist?list=PLWyONXRtuelT7e2waz4vGaYlc_Hi3YpYG" target="_blank" rel="noopener noreferrer") Ayala, M. (s.f.). Curso de fundamentos matemáticos (playlist)
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
