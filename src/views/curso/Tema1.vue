@@ -296,7 +296,7 @@
             h5 Ejemplo 2 (contexto práctico): inventario
             p Inicial: 1,000
             p Ventas: 300
-            p 1,000 - 300 = 700 (stock restante)
+            p 1,000 - 300 = 700 (#[i stock] restante)
             p 300 - 1,000 = -700 (operación sin sentido práctico)
 
           div(numero="2" titulo="Elemento neutro por la derecha")
@@ -309,7 +309,7 @@
             h5 Ejemplo 2 (contexto práctico): inventario
             p Inicial: 1,000
             p Ventas: 300
-            p 1,000 - 300 = 700 (stock restante)
+            p 1,000 - 300 = 700 (#[i stock] restante)
             p 300 - 1,000 = -700 (operación sin sentido práctico)
 
           div(numero="3" titulo="Inversa de la suma")

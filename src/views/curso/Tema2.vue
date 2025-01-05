@@ -54,7 +54,7 @@
               img(src='@/assets/curso/t2/4.png', alt='') 
           .col-lg-7
             h2.mb-4 Porcentajes
-            p.mb-4 Los porcentajes son una herramienta fundamental en el mundo moderno, proporcionando precisión y claridad en cálculos que abarcan desde mediciones hasta transacciones financieras. El PDF #[b Porcentajes], aborda su estructura, propiedades, operaciones y aplicaciones prácticas en áreas como ciencia, logística y programación. Comprender y manejar los números decimales, permite resolver problemas con exactitud, destacando su relevancia en la toma de decisiones informadas en diversos contextos cotidianos y profesionales.
+            p.mb-4 Los números decimales son una herramienta esencial en el mundo moderno, proporcionando precisión y claridad en cálculos que abarcan desde mediciones hasta transacciones financieras. El PDF #[b Porcentajes], aborda su estructura, propiedades, operaciones y aplicaciones prácticas en áreas como ciencia, logística y programación. Comprender y manejar los números decimales, permite resolver problemas con exactitud, destacando su relevancia en la toma de decisiones informadas en diversos contextos cotidianos y profesionales.
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/porcentajes.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
