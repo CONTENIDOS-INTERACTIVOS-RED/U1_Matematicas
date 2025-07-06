@@ -57,24 +57,51 @@
 
     .bg-1.p-4.mb-5(data-aos="flip-up")
       p.mb-0 Dominar estas operaciones es crucial para desarrollar análisis más complejos y tomar decisiones fundamentadas en datos cuantitativos.
-    p.mb-5(data-aos="flip-up") Parra y Saiz (2007), enfatizan la importancia de comprender las operaciones básicas como procesos interrelacionados, que forman la base del pensamiento matemático. Andonegui Zabala (2007) destaca cómo el sistema decimal facilita las operaciones en contextos prácticos, mientras que Ortiz Ceredo (2018), subraya la necesidad de dominar estas operaciones para el análisis de datos en entornos profesionales.
-    .row.justify-content-center.mb-5(data-aos="flip-up")
-      .col-sm-12.col-lg-8
-        .row.justify-content-center.align-items-center.mb-0
-          .col-sm-12.col-lg-12
-            .bg-color-white.shadow-soft.p-4
-              .row.justify-content-around.align-items-center
-                .col-md-auto.d-none.d-lg-block
-                  img(src="@/assets/template/bg-icono-video.svg", style="width: 60px;")
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-0
-                      h3.mb-1 Para reforzar los conceptos generales sobre matemáticas y aprender a realizar operaciones básicas como la suma, resta, multiplicación y división, le invitamos a ver el siguiente video:
-                      p.mb-0.mb-cus Ayala, M. (s. f.). Curso de fundamentos matemáticos [Video]. YouTube.
-                    .col-sm-auto
-                      a.boton.color-adicional-1.texto-blanco(href='https://www.youtube.com/playlist?list=PLWyONXRtuelT7e2waz4vGaYlc_Hi3YpYG' target="_blank")
-                        span Ver video
-                        i.fas.fa-arrow-right
+
+    .bg-full-width.bg-10.mb-4(data-aos="flip-up")
+      .p-4.p-md-5
+
+        .row.mb-5
+          .col-lg-4
+            figure
+              img(src="@/assets/curso/t1/32.png", data-aos="zoom-in")
+          .col-lg-8
+            p(data-aos="fade-left").mb-4 Parra y Saiz (2007), enfatizan la importancia de comprender las operaciones básicas como procesos interrelacionados, que forman la base del pensamiento matemático. Andonegui Zabala (2007) destaca cómo el sistema decimal facilita las operaciones en contextos prácticos, mientras que Ortiz Ceredo (2018), subraya la necesidad de dominar estas operaciones para el análisis de datos en entornos profesionales.
+            p(data-aos="fade-left").mb-4 #[b Para reforzar los conceptos generarles sobre matemáticas y aprender a realizar operaciones básicas como la suma, resta, multiplicación y división, le invitamos a ver los siguientes vídeos en YouTube. ]
+
+
+        .row.justify-content-center.mb-5(data-aos="flip-up")
+          .col-sm-12.col-lg-8
+            .row.justify-content-center.align-items-center.mb-4
+              .col-sm-12.col-lg-12
+                .bg-color-white.shadow-soft.p-4
+                  .row.justify-content-around.align-items-center
+                    .col-md-auto.d-none.d-lg-block
+                      img(src="@/assets/template/bg-icono-video.svg", style="width: 60px;")
+                    .col
+                      .row.justify-content-between.align-items-center
+                        .col.mb-0
+                          h5 Operaciones Fundamentales - Suma y Resta (Concepto y Ejemplos)
+                          p.mb-0.mb-cus Aquí veremos una breve introducción a las operaciones aritméticas básicas, la suma y la restas, junto con su concepto y propiedades.
+                        .col-sm-auto
+                          a.boton.color-adicional-1.texto-blanco(href='https://youtu.be/M-0OVozNsfo' target="_blank")
+                            span Ver video
+                            i.fas.fa-arrow-right
+            .row.justify-content-center.align-items-center.mb-0
+              .col-sm-12.col-lg-12
+                .bg-color-white.shadow-soft.p-4
+                  .row.justify-content-around.align-items-center
+                    .col-md-auto.d-none.d-lg-block
+                      img(src="@/assets/template/bg-icono-video.svg", style="width: 60px;")
+                    .col
+                      .row.justify-content-between.align-items-center
+                        .col.mb-0
+                          h5 Operaciones Aritméticas - Multiplicación y División (Concepto y Ejemplos)
+                          p.mb-0.mb-cus En este video abordaremos a fondo los conceptos y propiedades de la Multiplicación y División, sus diferentes trucos para que usando la aritmética puedas entender que forman parte esencial de todas nuestras vidas.
+                        .col-sm-auto
+                          a.boton.color-adicional-1.texto-blanco(href='https://youtu.be/1Vd6NPZ-VXc' target="_blank")
+                            span Ver video
+                            i.fas.fa-arrow-right
 
 
     p.mb-3(data-aos="flip-up") A continuación, se darán a conocer algunas importancias generales de las operaciones matemáticas básicas, en el contexto profesional.
@@ -121,10 +148,10 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-0.mb-sm-0
-                      h3.mb-1 Para reforzar los conceptos básicos de operaciones matemáticas, le invitamos a ver el siguiente video: 
-                      p.mb-0.mb-cus Gómez Moya, S. (s. f.). Operaciones aritméticas [Video]. YouTube.
+                      h5.mb-1 Jerarquía de Operaciones (PEMDAS)
+                      p.mb-0.mb-cus Para reforzar el concepto sobre jerarquía de operaciones matemáticas, le invitamos a ver el siguiente video:
                     .col-sm-auto
-                      a.boton.color-adicional-1.texto-blanco(href='https://www.youtube.com/watch?v=Ucox4j4w-gY' target="_blank")
+                      a.boton.color-adicional-1.texto-blanco(href='https://youtu.be/44s43FFn96A' target="_blank")
                         span Ver video
                         i.fas.fa-arrow-right
 
@@ -458,15 +485,8 @@
       .row.justify-content-center.align-items-center.mb-0
         .col-sm-12.col-lg-6
           p.mb-3 La división es la operación que distribuye una cantidad en partes iguales o determina, cuántas veces una cantidad contiene a otra. La división implica encontrar cuántas veces el divisor, cabe en el dividendo.
-          
-          .row.mb-5
-            .col-sm-12.col-lg-6
-              p.mb-2.fw-bold  1,234 ÷ 56 = 22.035...
-              p.mb-2.fw-bold 1,234 | 56
-              p.mb-2.fw-bold –112   | -------
-              p.mb-2.fw-bold  114    22.035...
-              p.mb-2.fw-bold –112
-              p.mb-2.fw-bold    20
+          figure
+            img(src="@/assets/curso/t1/ejemplo_division.png", alt="", style="max-width: 300px;")
            
         .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src="@/assets/curso/t1/20.png")
@@ -666,9 +686,7 @@
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
               a(href="https://youtu.be/2v1ZkcyrTl4?si=Hy7UYsiXf4kCR0k0" target="_blank" rel="noopener noreferrer") MATHEMATIKÓS. (2022). ¿En qué orden estudiar Matemáticas?
 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/lcox4j4w-gY?si=Dncq6LWw17eYqW" target="_blank" rel="noopener noreferrer") Gómez Moya, S. (2022). Operaciones aritméticas.
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
