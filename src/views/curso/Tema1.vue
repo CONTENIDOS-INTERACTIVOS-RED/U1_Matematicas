@@ -680,17 +680,17 @@
             //- Referencia de youtube 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/fafGlGOzCCg?si=M5oMk5L8-6Tfiybn" target="_blank" rel="noopener noreferrer") Epsilon Akdemy. (2017). Sistemas de numeración.
+              a(href="https://youtu.be/fafGiCOzCCg?si=bTLYZL7w8WzXnQwU " target="_blank" rel="noopener noreferrer") Epsilon Akdemy. (2017). Sistemas de numeración.
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/2v1ZkcyrTl4?si=Hy7UYsiXf4kCR0k0" target="_blank" rel="noopener noreferrer") MATHEMATIKÓS. (2022). ¿En qué orden estudiar Matemáticas?
+              a(href="https://youtu.be/2vTZkcyrTl4?si=nV81R1sdEOsYzuIi" target="_blank" rel="noopener noreferrer") MATHEMATIKÓS. (2022). ¿En qué orden estudiar Matemáticas?
 
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/lpq4c7_BV8?si=Dje29lqV7p5Py5Qh" target="_blank" rel="noopener noreferrer") Barushnet. (2022). Aritmética: operaciones básicas, leyes de los signos y fracciones.
+              a(href="https://youtu.be/-lpq4c7_BV8?si=EeOBhIVPmMxnodgx" target="_blank" rel="noopener noreferrer") Barushnet. (2022). Aritmética: operaciones básicas, leyes de los signos y fracciones.
             
             
             

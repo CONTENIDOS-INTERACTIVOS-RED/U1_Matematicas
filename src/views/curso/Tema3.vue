@@ -381,10 +381,6 @@
             p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
             //- Referencia con enlace 
             p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
-              a(href='https://elibro.net/en/ereader/tecnologicodeloriente/40539?page=6' target='_blank' rel='noopener noreferrer') Ortiz Ceredo, F. J. (2018). Matemáticas 3 (2 ed.). Grupo Editorial Patria.
-            
-            p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
               a(href='https://matematix.org/ ' target='_blank' rel='noopener noreferrer') https://matematix.org/ 
             p.d-flex.my-4
